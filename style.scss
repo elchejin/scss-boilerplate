@@ -1,0 +1,20 @@
+// the file that puts together all components
+// in case you are using a framework that includes the charset specification you don't need to specify one, otherwise uncomment charset below. If you need other one change the charset code between brackets "" to the one you need.
+// @charset "UTF-8";
+
+@import
+  "components/fonts",
+  "components/general",
+  "components/modals",
+  "components/inputs",
+  "components/buttons",
+  "components/header",
+  "components/footer",
+  "components/media-queries",
+  "components/shame";
+
+//"components/section", you must create a file for other sections like main content and put it between footer and header.
+// when you generate a new partial file use _partial.scss for example for section your file must be named "_section.scss"
+// This is just a basic initial scss structure, you can make as many partial files as you think is correct, the idea is to have everything maintainable for other users that might need to make some changes in your code.
+
+//Don't forget to comment your files as if you were writing "Styling my site for Dummies" remember that your code is gonna be read by another person, don't be scared, when compass compile it minified all comments will not be displayed ;)

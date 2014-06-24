@@ -1,0 +1,5 @@
+// Global
+@import
+  "variables",
+  "mixins";
+// In here you will place all global dependencies the ones that doesn't have any css properties (variables and mixings) so you only have to use @import "global"; on your components instead of requesting all dependencies.

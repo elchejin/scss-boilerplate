@@ -1,0 +1,15 @@
+/* General */
+// In here you will place all global selectors and settings like body {...};, a {...}, placeholder {color: red; }; (quote: with placeholder you will need prefixes "moz, webkit, etc...").
+@import "global";
+
+body {
+  color: $black;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $primary-color;
+}

@@ -1,0 +1,10 @@
+// mixings
+// in this file you will put all mixing functions.
+// comment after every mixin, in your comments you must explain what it does, which values gets and what does it generate.
+
+// Mixin for background image that needs no-repeat property, to use it you need to specify name of the image with extension (image.jpg) size of the image
+//(in some cases like retina display you'll need a 2x size image and specify 1x size on css), and align (center center, or right center, center top etc.)
+@mixin background-image_no_repeat($image, $size, $align) {
+  background: url('../assets/images/#{$image}') no-repeat $align;
+  background-size: $size;
+}

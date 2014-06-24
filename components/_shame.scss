@@ -1,0 +1,16 @@
+/* shame */
+// In this file you will put some quick bug fixes that you will integrate properly in the future in the scss structure, but for now you need to do some tests
+// or if you need to make a fix, override or some css techniques that you feel shame of, you must comment every fix properly so anyone can understand why you did it
+@import "global";
+
+//Example:
+/**
+ * Nav specificity fix.
+ *
+ * Someone used an ID in the header code (`#header a {}`) which trumps the
+ * nav selectors (`.site-nav a {}`). Use !important to override it until I
+ * have time to refactor the header stuff.
+ */
+.site-nav a {
+  color: $link-color !important;
+}

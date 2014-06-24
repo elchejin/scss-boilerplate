@@ -1,0 +1,32 @@
+/* fonts */
+// in this file you will put all @font-face settings.
+
+// Font for normal weight if needed change url to wherever your font files are located.
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url('../assets/fonts/263610840-HelveticaNeueETPro-55Rg.eot');
+  src: url('../assets/fonts/263610840-HelveticaNeueETPro-55Rg.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/263610840-HelveticaNeueETPro-55Rg.svg#Helvetica Neue eText Pro') format('svg'),
+  url('../assets/fonts/263610840-HelveticaNeueETPro-55Rg.woff') format('woff'),
+  url('../assets/fonts/263610840-HelveticaNeueETPro-55Rg.ttf') format('truetype');
+}
+
+// Font for bold weight
+@font-face
+{
+  font-family: "Helvetica Neue";
+  src: url('../assets/fonts/865112305-HelveticaNeueETPro-75Bd.eot');
+  src: url('../assets/fonts/865112305-HelveticaNeueETPro-75Bd.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/865112305-HelveticaNeueETPro-75Bd.svg#Helvetica Neue eText Pro') format('svg'),
+  url('../assets/fonts/865112305-HelveticaNeueETPro-75Bd.woff') format('woff'),
+  url('../assets/fonts/865112305-HelveticaNeueETPro-75Bd.ttf') format('truetype');
+  font-weight: bold;
+}
+
+// When you call your @font-face as a css property use this method:
+// body {
+//   font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+// } you must call your font with the same name as "font-family" name given in your @font-face include.
+// If you want to use the bold version
+// h1 { font-weight: bold; }
+// To include Italic use another @font-face like in bold, but instead of "font-weight: bold;" property use "font-style: italic;" and use it like this .italic { font-style: italic; }

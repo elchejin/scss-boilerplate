@@ -1,0 +1,8 @@
+/* buttons */
+// in this file you will put everything that gives style to all buttons used in the site.
+@import "global";
+
+// Call To Action Button (remember to use small but understandable class/id names)
+.cta-btn {
+  border-radius: $medium-radius;
+}

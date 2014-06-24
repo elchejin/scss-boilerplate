@@ -1,0 +1,11 @@
+/* Media queries */
+// In here you will place all media queries and styles to change the way your site look on media sizes.
+@import "global";
+
+@media only screen and (min-width: 30.063em) {
+  header {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+}
